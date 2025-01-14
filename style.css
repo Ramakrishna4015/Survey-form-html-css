@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: white;
+}
+.container{
+    max-width: 800px;
+    margin: 32px auto;
+    padding: 0px 32px;
+    border: 1px solid;
+}
+.main-heading{
+    font-size: 64px;
+    margin: 32px 0px 16px;
+    color: black;
+    text-align: center;
+}
+
+/* form section */
+.form-class
+{
+    margin: 32px 0px;
+
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+.heading-field{
+    margin: 16px 0px 9.6px;
+}
+.field-head{
+    font-size: 32px;
+}
+.input-div{
+    margin-bottom: 16px;
+}
+.field-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.form-control-input{
+    font-size: 24px;
+    padding: 6.4px 0px;
+    text-indent: 8px;
+    border: none;
+    outline: 1px solid #999;
+    border-radius: 7px;
+    width: 100%;
+    color: #999;
+}
+option{
+    color: #999;
+}
+.radio{
+ outline: none;
+}
+.form-control-input:focus{
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 8px rgb(13,110,253 /25%);
+}
+.help-text{
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 1.6px;
+}
+button{
+    font-size: 32px;
+    margin: 30px auto;
+    display: block;
+    color: wheat;
+    padding: 8px 30px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px #0000;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
